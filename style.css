@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+header {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    background: black;
+    color: white;
+    box-shadow: 1px 0px 5px rgb(179, 179, 179);
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Staatliches', cursive;
+    height: 40px;
+}
+
+title {
+    grid-row: 1;
+    grid-column: 1 / 2;
+    justify-content: start;
+}
+
+.directory {
+    grid-row: 1;
+    grid-column: 3 / 4;
+    justify-content: end;
+    text-align: end;
+    text-decoration: none;
+}
+
+.directory a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.directory a.active{
+    text-decoration: underline;
+}
