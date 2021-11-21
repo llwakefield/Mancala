@@ -31,6 +31,7 @@ In case you are new to mancala, you may want to familiarize yourself with the [r
 - The first thing I would like to do is rewrite this as a React app so that I can take advantage of its built-in hooks for detecting and rendering changes in state
 - I want to replace the alerts with modals and think more critically about the user experience. Specifically, I want to provide more visual and textual feedback to the user to explain the result of each move, especially when a user captures an opponent's seeds or when they land in their own pit, allowing them to go again
 - I would also like to make the app more responive to a user's device to improve the mobile experience
+- Rather than requiring there to be two players providing input, I want to create a computer player of varying abilities so that users can also choose to play on their own
 
 
 
